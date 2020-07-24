@@ -19,11 +19,10 @@ const Login = () => {
         setresult(data);
       });
   }
-
   return (
-    <div style={{marginLeft:"20px"}}>
+    <div className="wrapper">
       <h2 style={{marginLeft:"80px"}}>Login </h2>
-      <div style={{marginLeft:"20px"}}>
+      <div style={{marginLeft:"30px"}}>
       <label>E-mail</label>
       <input
         type="text"
@@ -32,12 +31,14 @@ const Login = () => {
       ></input>
       </div>
       <br />
+      <div style={{marginLeft:"10px"}}>
       <label>Password</label>
       <input
         type="text"
         value={password}
         onChange={(e) => setpassword(e.target.value)}
       ></input>
+      </div>
       <br />
       <div style={{marginLeft:"90px",marginTop:"15px"}}>
       <button type="submit" onClick={() => check()}>
