@@ -23,9 +23,9 @@ const Register = () => {
   }
 
   return (
-    <div >
-      <h2 style={{marginLeft:"50px"}}>Registration</h2>
-      <div style={{marginLeft:"10px"}}>
+    <div className="form-wrapper">
+      <h2 style={{marginLeft:"60px"}}>Registration</h2>
+      <div style={{marginLeft:"30px"}}>
       <label>Name</label>
       <input
         type="text"
@@ -34,7 +34,7 @@ const Register = () => {
       ></input>
       </div>
       <br />
-      <div style={{marginLeft:"10px"}}>
+      <div style={{marginLeft:"30px"}}>
       <label>E-mail</label>
       <input
         type="email"
