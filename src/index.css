@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.form-wrapper{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding:20px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px  ;
+  background-color: royalblue;
+  position: absolute;
+  }
+  .wrapper{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding:20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px  ;
+    background-color: aqua;
+    position: absolute;
+    }
